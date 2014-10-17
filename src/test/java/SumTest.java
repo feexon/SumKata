@@ -20,7 +20,7 @@ public class SumTest {
 
     private int sum(int[] numbers) {
         if (0 < numbers.length) {
-            return 1;
+            return numbers[0];
         }
         return 0;
     }
