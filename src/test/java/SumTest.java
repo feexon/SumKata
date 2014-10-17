@@ -30,8 +30,8 @@ public class SumTest {
         int i = 0;
         if (i < numbers.length) {
             result += numbers[i];
+            i++;
         }
-        i++;
         if (i < numbers.length) {
             result += numbers[i];
         }
