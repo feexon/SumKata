@@ -11,4 +11,8 @@ public class SumTest {
     public void sumEmptyArray() throws Exception {
         assertEquals(0, sum(new int[0]));
     }
+
+    private int sum(int[] numbers) {
+        return -1;
+    }
 }
