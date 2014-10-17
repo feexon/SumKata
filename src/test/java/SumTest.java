@@ -13,6 +13,6 @@ public class SumTest {
     }
 
     private int sum(int[] numbers) {
-        return -1;
+        return 0;
     }
 }
