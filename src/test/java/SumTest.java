@@ -27,12 +27,13 @@ public class SumTest {
 
     private int sum(int[] numbers) {
         int result = 0;
-
-        if (0 < numbers.length) {
-            result += numbers[0];
+        int i = 0;
+        if (i < numbers.length) {
+            result += numbers[i];
         }
-        if (1 < numbers.length) {
-            result += numbers[1];
+        i++;
+        if (i < numbers.length) {
+            result += numbers[i];
         }
         return result;
     }
