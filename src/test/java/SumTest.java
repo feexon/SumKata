@@ -15,6 +15,7 @@ public class SumTest {
     @Test
     public void sumSingleNumber() throws Exception {
         assertEquals(1, sum(new int[]{1}));
+        assertEquals(2, sum(new int[]{2}));
     }
 
     private int sum(int[] numbers) {
