@@ -34,6 +34,7 @@ public class SumTest {
         }
         if (i < numbers.length) {
             result += numbers[i];
+            i++;
         }
         return result;
     }
