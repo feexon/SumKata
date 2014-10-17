@@ -32,10 +32,6 @@ public class SumTest {
             result += numbers[i];
             i++;
         }
-        if (i < numbers.length) {
-            result += numbers[i];
-            i++;
-        }
         return result;
     }
 }
