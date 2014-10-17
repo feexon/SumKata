@@ -27,8 +27,7 @@ public class SumTest {
 
     private int sum(int[] numbers) {
         int result = 0;
-        int i = 0;
-        for (; i < numbers.length; ) {
+        for (int i = 0; i < numbers.length; ) {
             result += numbers[i];
             i++;
         }
