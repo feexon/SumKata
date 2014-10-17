@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 /**
@@ -7,7 +8,7 @@ import static org.junit.Assert.fail;
  */
 public class SumTest {
     @Test
-    public void nothing() throws Exception {
-        fail();
+    public void sumEmptyArray() throws Exception {
+        assertEquals(0, sum(new int[0]));
     }
 }
