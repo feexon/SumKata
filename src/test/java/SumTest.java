@@ -26,13 +26,14 @@ public class SumTest {
     }
 
     private int sum(int[] numbers) {
-        if (1 < numbers.length) {
-            return numbers[1] + numbers[0];
-        }
+        int result = 0;
 
         if (0 < numbers.length) {
-            return numbers[0];
+            result += numbers[0];
         }
-        return 0;
+        if (1 < numbers.length) {
+            result += numbers[1];
+        }
+        return result;
     }
 }
