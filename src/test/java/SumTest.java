@@ -27,7 +27,7 @@ public class SumTest {
 
     private int sum(int[] numbers) {
         if (1 < numbers.length) {
-            return 3;
+            return numbers[1] + numbers[0];
         }
 
         if (0 < numbers.length) {
