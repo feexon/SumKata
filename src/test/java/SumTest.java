@@ -18,6 +18,12 @@ public class SumTest {
         assertEquals(2, sum(new int[]{2}));
     }
 
+    @Test
+    public void sumTwoNumbers() throws Exception {
+        assertEquals(3, sum(new int[]{1, 2}));
+
+    }
+
     private int sum(int[] numbers) {
         if (0 < numbers.length) {
             return numbers[0];
