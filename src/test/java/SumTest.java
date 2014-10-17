@@ -21,6 +21,7 @@ public class SumTest {
     @Test
     public void sumTwoNumbers() throws Exception {
         assertEquals(3, sum(new int[]{1, 2}));
+        assertEquals(5, sum(new int[]{2, 3}));
 
     }
 
